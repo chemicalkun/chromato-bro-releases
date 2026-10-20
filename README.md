@@ -12,9 +12,7 @@ GPC/SECデータ解析ソフトウェア。Mac（Apple Silicon）・Windows 11�
 
 ## アプリ内アップデート
 
-Macの「Chromato BRO」、Windowsの「ヘルプ」メニューから「アップデート設定…」を開き、次のURLを保存します。
-
-`https://github.com/chemicalkun/chromato-bro-releases/releases/latest/download/updates.json`
+更新先はアプリに組み込み済みです。URLの入力や変更は不要です。
 
 「アップデートを確認…」から更新できます。更新機能のない旧版には、まず最新版ZIPを導入してください。通常の解析中には更新通信を行いません。
 
