@@ -6,8 +6,9 @@ GPC/SECデータ解析ソフトウェア。Mac（Apple Silicon）・Windows 11�
 
 [最新版のダウンロード](https://github.com/chemicalkun/chromato-bro-releases/releases/latest)
 
-- Mac：Mac版ZIPを展開し、Chromato BRO.appをアプリケーションフォルダへ移動します。
-- Windows：Windows版ZIPを展開し、Chromato BRO Windowsフォルダ内のChromato BRO.exeを実行します。フォルダ内のDLL等も必要です。.NET Runtimeは同梱しています。WebView2 Runtimeが必要です。
+- [Mac用インストーラ（.pkg）](https://github.com/chemicalkun/chromato-bro-releases/releases/download/ver26.10.21-build43/Chromato-BRO-Mac-ver26.10.21.pkg)をダウンロードして開き、案内に従ってインストールします。
+- [Windows用セットアップ（.exe）](https://github.com/chemicalkun/chromato-bro-releases/releases/download/ver26.10.21-build43/Chromato-BRO-Windows-Setup-ver26.10.21.exe)をダウンロードして開き、「インストール」を押します。最新版を自動取得して導入します。初回はインターネット接続が必要です。
+- ZIP版も利用できます。WindowsのZIP版はフォルダ全体を展開してから実行します。
 - 測定データは外部に送信せず、解析は端末内で実行します。
 
 ## アプリ内アップデート
