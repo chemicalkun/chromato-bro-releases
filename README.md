@@ -1,24 +1,26 @@
 # Chromato BRO
 
-GPC/SECデータ解析ソフトウェア。Mac（Apple Silicon）・Windows 11（Intel/AMD）に対応します。
+GPC/SECデータ解析ソフトウェア。Mac（Apple Silicon）・Windows 11（Intel/AMD）向けです。
 
-## ダウンロード
+## アプリ内更新
 
-[最新版のダウンロード](https://github.com/chemicalkun/chromato-bro-releases/releases/latest)
+最新版：ver26.10.27（build 45）
 
-- [Mac版ZIP](https://github.com/chemicalkun/chromato-bro-releases/releases/download/ver26.10.27-build44/Chromato-BRO-Mac-ver26.10.27.zip)：展開後、同封の「インストール手順.txt」を読み、Chromato BRO.appをアプリケーションへ移動します。
-- [Windows版ZIP](https://github.com/chemicalkun/chromato-bro-releases/releases/download/ver26.10.27-build44/Chromato-BRO-Windows-ver26.10.27.zip)：「すべて展開」後、Chromato BRO Windows内の「インストール手順.txt」を読み、Chromato BRO.exeを起動します。EXEだけを取り出さず、フォルダ全体で保管してください。
-- `Mac-update` のZIPとupdates.jsonはアプリ内更新用です。手動導入には上記のMac版・Windows版ZIPを使用してください。
-- 測定データは外部に送信せず、解析は端末内で実行します。
+アプリの「アップデートを確認…」から更新してください。測定データ・検量線・設定は保持します。
+更新先URLはアプリに組み込み済みです。通常の解析はオフラインで実行します。
 
-## アプリ内アップデート
+## 初回導入用ZIP
 
-更新先はアプリに組み込み済みです。URLの入力や変更は不要です。
+- [Mac版ZIP ver26.10.27（build 44）](https://github.com/chemicalkun/chromato-bro-releases/releases/download/ver26.10.27-build44/Chromato-BRO-Mac-ver26.10.27.zip)
+- [Windows版ZIP ver26.10.27（build 44）](https://github.com/chemicalkun/chromato-bro-releases/releases/download/ver26.10.27-build44/Chromato-BRO-Windows-ver26.10.27.zip)
 
-「アップデートを確認…」から更新できます。更新機能のない旧版には、まず最新版ZIPを導入してください。通常の解析中には更新通信を行いません。
+ZIPを展開し、同封の「インストール手順.txt」に従ってください。Macは.appをアプリケーションへ移動し、Windowsはフォルダ全体を展開してEXEを起動します。
+手動配布ZIPは必要な時だけ更新しています。導入後に「アップデートを確認…」で最新版へ更新できます。
+最新リリースの `update` アーカイブとupdates.jsonはアプリ内更新用です。
 
 ## 配布について
 
-このリポジトリはアプリの配布専用です。開発プロジェクト・利用者の測定ファイル・署名用秘密鍵は掲載しません。Chromato-PROおよびメーカーの公式製品ではありません。
+ソース：https://github.com/chemicalkun/lab-apps
 
-Mac版はDeveloper ID署名・Apple公証なし、Windows版はAuthenticode未署名です。起動時にOSの確認が表示される場合があります。Windows実機での動作確認は未実施です。
+このリポジトリには配布バイナリと署名付き更新情報だけを掲載します。測定ファイル・署名用秘密鍵は掲載しません。Chromato-PROの公式製品ではありません。
+MacはDeveloper ID署名・Apple公証なし、WindowsはAuthenticode未署名です。Windows実機での動作確認は未実施です。
